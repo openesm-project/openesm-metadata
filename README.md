@@ -9,6 +9,10 @@ This repository contains structured metadata for all datasets in the **openESM p
 - `bundle_metadata.R` - Script to combine individual metadata files
 - `copy_metadata.R` - Script to sync metadata from source repository
 
+## Updating metadata
+
+The ground truth for metadata lives in [openesm-cleaning](https://github.com/openesm-project/openesm-cleaning). Do not edit metadata files in this repo directly. To pull the latest metadata from the cleaning repo, run `copy_metadata.R` followed by `bundle_metadata.R`.
+
 ## Usage
 
 The bundled `datasets.json` file provides programmatic access to all dataset metadata. Individual metadata files are organized in folders following the pattern `XXXX_authorname/`.

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "created_at": "2026-09-10 16:00:08",
+    "created_at": "2026-09-15 10:10:09",
     "n_datasets": 62,
     "description": "Combined metadata from all openESM datasets"
   },
@@ -13,8 +13,14 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1177/21677026211017839",
       "zenodo_doi": "10.5281/zenodo.17347269",
-      "dataset_version": "1.0.0",
+      "dataset_version": "2.0.0",
       "changelog": [
+        {
+          "date": "2026-09-15",
+          "description": "Remove redundant time column.",
+          "type": "data",
+          "dataset_version": "2.0.0"
+        },
         {
           "date": "2026-09-09",
           "description": "Fix information about number of participants.",
@@ -7725,8 +7731,14 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1038/s41597-020-00700-1",
       "zenodo_doi": "10.5281/zenodo.17347690",
-      "dataset_version": "1.0.0",
+      "dataset_version": "2.0.0",
       "changelog": [
+        {
+          "date": "2026-09-15",
+          "description": "Remove redundant date column; removed uncleaned static data pending internal review.",
+          "type": "data",
+          "dataset_version": "2.0.0"
+        },
         {
           "date": "2025-10-14",
           "description": "Initial release.",
@@ -7907,6 +7919,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-15",
+          "description": "Add metadata for time variable; add missing asssessment types.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-09-09",
           "description": "Fix information about number of participants.",
           "type": "metadata",
@@ -7955,7 +7973,7 @@
           "labels": "",
           "transformation": "",
           "source": "",
-          "assessment_type": "",
+          "assessment_type": "ESM",
           "construct": "",
           "comments": ""
         },
@@ -7969,7 +7987,7 @@
           "labels": "",
           "transformation": "",
           "source": "",
-          "assessment_type": "",
+          "assessment_type": "ESM",
           "construct": "",
           "comments": ""
         },
@@ -7983,7 +8001,21 @@
           "labels": "",
           "transformation": "",
           "source": "",
-          "assessment_type": "",
+          "assessment_type": "ESM",
+          "construct": "",
+          "comments": ""
+        },
+        {
+          "name": "time",
+          "description": "Time counter of session",
+          "variable_type": "numeric",
+          "coding": "",
+          "answer_categories": "",
+          "details": "Time = (Day-1)*8+(Session+2)",
+          "labels": "",
+          "transformation": "",
+          "source": "",
+          "assessment_type": "ESM",
           "construct": "",
           "comments": ""
         },
@@ -7997,7 +8029,7 @@
           "labels": "",
           "transformation": "",
           "source": "",
-          "assessment_type": "",
+          "assessment_type": "ESM",
           "construct": "",
           "comments": ""
         },
@@ -8011,7 +8043,7 @@
           "labels": "",
           "transformation": "",
           "source": "",
-          "assessment_type": "",
+          "assessment_type": "ESM",
           "construct": "",
           "comments": ""
         },
@@ -8025,7 +8057,7 @@
           "labels": "0 = no\n1 = yes",
           "transformation": "",
           "source": "",
-          "assessment_type": "",
+          "assessment_type": "ESM",
           "construct": "",
           "comments": ""
         },
@@ -8039,7 +8071,7 @@
           "labels": "",
           "transformation": "",
           "source": "",
-          "assessment_type": "",
+          "assessment_type": "ESM",
           "construct": "",
           "comments": ""
         },
@@ -8053,7 +8085,7 @@
           "labels": "",
           "transformation": "",
           "source": "",
-          "assessment_type": "",
+          "assessment_type": "ESM",
           "construct": "",
           "comments": ""
         },
@@ -12006,6 +12038,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-15",
+          "description": "Add metadata for two creation variables.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -12065,6 +12103,34 @@
           "description": "Beep of the day",
           "variable_type": "other",
           "coding": "NA",
+          "answer_categories": "",
+          "details": "",
+          "labels": "",
+          "transformation": "",
+          "source": "",
+          "assessment_type": "ESM",
+          "construct": "",
+          "comments": ""
+        },
+        {
+          "name": "creation_date",
+          "description": "Time of creation",
+          "variable_type": "PosixCt",
+          "coding": "",
+          "answer_categories": "",
+          "details": "",
+          "labels": "",
+          "transformation": "",
+          "source": "",
+          "assessment_type": "ESM",
+          "construct": "",
+          "comments": ""
+        },
+        {
+          "name": "completion_date",
+          "description": "Time of completion",
+          "variable_type": "PosixCt",
+          "coding": "",
           "answer_categories": "",
           "details": "",
           "labels": "",
@@ -16365,6 +16431,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-15",
+          "description": "Add metadata for two affect variables.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -16530,6 +16602,34 @@
           "assessment_type": "ESM",
           "construct": "negative affect, affect, external rating",
           "comments": ""
+        },
+        {
+          "name": "pa_selfother",
+          "description": "Positive affect product term",
+          "variable_type": "rating_scale",
+          "coding": "",
+          "answer_categories": "",
+          "details": "Likely the product term of pa_self and pa_other",
+          "labels": "",
+          "transformation": "Likely person-mean centered",
+          "source": "",
+          "assessment_type": "ESM",
+          "construct": "positive affect, affect",
+          "comments": "Kept here because this product term was centered before sharing data and cannot simply be recomputed based on other columns."
+        },
+        {
+          "name": "na_selfother",
+          "description": "Negative affect product term",
+          "variable_type": "rating_scale",
+          "coding": "",
+          "answer_categories": "",
+          "details": "Likely the product term of na_self and na_other",
+          "labels": "",
+          "transformation": "Likely person-mean centered",
+          "source": "",
+          "assessment_type": "ESM",
+          "construct": "negative affect, affect",
+          "comments": "Kept here because this product term was centered before sharing data and cannot simply be recomputed based on other columns."
         }
       ]
     },
@@ -17013,6 +17113,12 @@
       "zenodo_doi": "10.5281/zenodo.17348348",
       "dataset_version": "1.1.0",
       "changelog": [
+        {
+          "date": "2026-09-15",
+          "description": "Renamed extracted_scheduled_times to scheduled_times.",
+          "type": "metadata",
+          "dataset_version": "1.1.0"
+        },
         {
           "date": "2026-09-09",
           "description": "Fix information about number of participants.",
@@ -17599,7 +17705,7 @@
           "comments": ""
         },
         {
-          "name": "extracted_scheduled_times",
+          "name": "scheduled_time",
           "description": "Time the prompt was scheduled",
           "variable_type": "PosixCt",
           "coding": "",
@@ -18208,6 +18314,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-15",
+          "description": "Add metadata for dual_fits_bo_po.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -18428,6 +18540,20 @@
           "source": "Recoded by the authors to indicate double exposure",
           "assessment_type": "ESM",
           "construct": "thinspiration, body positivity, media exposure, body image",
+          "comments": ""
+        },
+        {
+          "name": "dual_fits_bo_po",
+          "description": "Dual exposure to fitspiration and body positivity",
+          "variable_type": "binary",
+          "coding": "Have you seen thinspiration/body positivity since the last questionnaire? Recoded by the authors to indicate double exposure\n0 = No exposure\n1 = Fitspiration and body positivity exposure",
+          "answer_categories": "2",
+          "details": "Have you seen fitspiration/body positivity since the last questionnaire?",
+          "labels": "0 = No exposure\n1 = Fitspiration and body positivity exposure",
+          "transformation": "",
+          "source": "Recoded by the authors to indicate double exposure",
+          "assessment_type": "ESM",
+          "construct": "body positivity, fitspiration, media exposure, body image",
           "comments": ""
         },
         {
@@ -22466,8 +22592,14 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1177/09567976221093307",
       "zenodo_doi": "10.5281/zenodo.17361673",
-      "dataset_version": "1.0.0",
+      "dataset_version": "2.0.0",
       "changelog": [
+        {
+          "date": "2026-15-09",
+          "description": "Set beep column to NA and retained original hour_block column; removed uncleaned static data pending internal review.",
+          "type": "data",
+          "dataset_version": "2.0.0"
+        },
         {
           "date": "2025-10-15",
           "description": "Initial release.",
@@ -22491,7 +22623,7 @@
       "sampling_scheme": "4x/day every fixed schedule every for hours, starting time chosen by participants",
       "participants": "students",
       "coding_file": "0060_beck_variables",
-      "additional_comments": "part of larger personality intervention study; one individual (143) had identical duplicate responses, which we removed; number of max. observations and days taken from maximum observations in data",
+      "additional_comments": "no beep information available; part of larger personality intervention study; one individual (143) had identical duplicate responses, which we removed; number of max. observations and days taken from maximum observations in data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
       "features": [
@@ -22527,9 +22659,9 @@
           "name": "beep",
           "description": "Beep of the day",
           "variable_type": "other",
-          "coding": "",
+          "coding": "not available",
           "answer_categories": "",
-          "details": "",
+          "details": "not available",
           "labels": "",
           "transformation": "",
           "source": "",
@@ -22606,6 +22738,20 @@
           "assessment_type": "ESM",
           "construct": "",
           "comments": ""
+        },
+        {
+          "name": "hour_block",
+          "description": "Hour block of response",
+          "variable_type": "numeric",
+          "coding": "",
+          "answer_categories": "",
+          "details": "",
+          "labels": "",
+          "transformation": "",
+          "source": "",
+          "assessment_type": "ESM",
+          "construct": "",
+          "comments": "Similar to a beep column, but has many duplicates"
         },
         {
           "name": "optimistic_setback",
@@ -26313,8 +26459,14 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1007/s10902-022-00546-x",
       "zenodo_doi": "10.5281/zenodo.17361708",
-      "dataset_version": "1.0.1",
+      "dataset_version": "2.0.0",
       "changelog": [
+        {
+          "date": "2026-09-15",
+          "description": "Removed redundant not_misunderstood column.",
+          "type": "data",
+          "dataset_version": "2.0.0"
+        },
         {
           "date": "2025-10-18",
           "description": "Removed underscore from file names.",
@@ -29711,6 +29863,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-09-15",
+          "description": "Add metadata for participant_mov.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-03",
           "description": "Remove some open text data.",
           "type": "data",
@@ -29792,6 +29950,20 @@
           "coding": "",
           "answer_categories": "",
           "details": "",
+          "labels": "",
+          "transformation": "",
+          "source": "",
+          "assessment_type": "ESM",
+          "construct": "",
+          "comments": ""
+        },
+        {
+          "name": "participant_mov",
+          "description": "Participant MOV",
+          "variable_type": "numeric",
+          "coding": "",
+          "answer_categories": "",
+          "details": "Unclear integer indicator",
           "labels": "",
           "transformation": "",
           "source": "",

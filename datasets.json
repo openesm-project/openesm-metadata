@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "created_at": "2026-10-13 08:51:31",
+    "created_at": "2026-10-14 09:52:27",
     "n_datasets": 63,
     "description": "Combined metadata from all openESM datasets"
   },
@@ -15,6 +15,12 @@
       "zenodo_doi": "10.5281/zenodo.17347269",
       "dataset_version": "3.0.0",
       "changelog": [
+        {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "3.0.0"
+        },
         {
           "date": "2026-09-17",
           "description": "Removal of uncleaned static data pending privacy review.",
@@ -55,7 +61,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "4x/day fixed schedule",
       "participants": "student sample",
-      "coding_file": "0001_fried_variables",
       "additional_comments": "some individuals have more than the maximum number of observations due to some prompts being expired",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -437,6 +442,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -470,7 +481,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "1x/day unclear schedule",
       "participants": "unclear",
-      "coding_file": "0002_nestler_variables",
       "additional_comments": "part of the FLIP study",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -656,6 +666,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-04-27",
           "description": "Fix 'extraversion' typo in variable coding.",
           "type": "metadata",
@@ -683,7 +699,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "3x/day fixed time windows",
       "participants": "adults",
-      "coding_file": "0003_hawks_variables",
       "additional_comments": {},
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -1359,6 +1374,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -1380,7 +1401,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "irregular",
       "participants": "undergraduate students",
-      "coding_file": "0004_wang_variables",
       "additional_comments": "StudentLife study; More raw unaggregated data available; some item coding unclear; data preaggregated by Adler et al.; number of max. time points taken as maximum in aggregated data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -2462,6 +2482,18 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2026-10-14",
+          "description": "Fix assessment type of one passive variable.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-09-09",
           "description": "Fix information about number of participants.",
           "type": "metadata",
@@ -2489,7 +2521,6 @@
       "raw_time_stamp": "unclear",
       "sampling_scheme": "1x/day on Monday, Wednesday, Friday",
       "participants": "adults with diagnosis of schizophrenia, schizoaffective disorder, or psychosis",
-      "coding_file": "0005_wang_variables",
       "additional_comments": "CrossCheck study; More raw unaggregated data available; data preaggregated by Adler et al.; number of max. time points taken as maximum in aggregated data; raw time stamp for passive sensing but not for ESM",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -4156,7 +4187,7 @@
           "labels": "",
           "transformation": "",
           "source": "",
-          "assessment_type": "sleep",
+          "assessment_type": "Passive",
           "construct": "distance travelled, movement pattern",
           "comments": ""
         },
@@ -4649,6 +4680,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -4670,7 +4707,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "6x/day random timing",
       "participants": "undergraduate students",
-      "coding_file": "0006_rowland_variables",
       "additional_comments": {},
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -4842,6 +4878,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-08-18",
           "description": "Remove passive sensing data columns.",
           "type": "data",
@@ -4869,7 +4911,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "5x/day semi-random schedule",
       "participants": "young adults",
-      "coding_file": "0008_westhoff_variables",
       "additional_comments": "item coding based on private codebook",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -5433,6 +5474,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-06-11",
           "description": "Fix information about number of participants.",
           "type": "metadata",
@@ -5466,7 +5513,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "10x/day 90-minute interval",
       "participants": "individuals with residual depressive symptoms",
-      "coding_file": "0010_geschwind_variables",
       "additional_comments": "part of an experimental study; contains two study periods, each of the same length; pleasantness is on a different scale and its scale labels are unclear",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -5624,6 +5670,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -5645,7 +5697,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "10x/day random 90-minute intervals",
       "participants": "undergraduate students",
-      "coding_file": "0011_kuppens_variables",
       "additional_comments": "no day or beep information; dataset 1 in the study; no information on specific item wording; partially implicit missingness; subset of larger dataset available upon request in the EMOTE database (https://emotedatabase.com/datasets/17)",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -5789,6 +5840,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-04-27",
           "description": "Fix typo for 'affect' in topics.",
           "type": "metadata",
@@ -5816,7 +5873,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "7x/day stratified random interval scheme",
       "participants": "community sample",
-      "coding_file": "0012_dejonckheere_variables",
       "additional_comments": "some participants pre-excluded by the authors due to their compliance; subset of larger data available upon request in the EMOTE database (https://emotedatabase.com/datasets/27)",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -5960,6 +6016,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -5987,7 +6049,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "4x/day time-contingent equidistant intervals",
       "participants": "community sample",
-      "coding_file": "0013_hoebeke_variables",
       "additional_comments": "some variable codings unclear",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -6215,6 +6276,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -6236,7 +6303,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "7x/day semi-random",
       "participants": "patients with Parkinson disease",
-      "coding_file": "0014_habets_variables",
       "additional_comments": "some variables only morning/evening; no beep information available",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -6926,6 +6992,18 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
+          "date": "2026-10-14",
+          "description": "Fix variable type typo in one variable.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-09-17",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -6953,7 +7031,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "1x/day at 5pm",
       "participants": "first-year psychology students",
-      "coding_file": "0015_flueckiger_variables",
       "additional_comments": {},
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -7017,7 +7094,7 @@
         {
           "name": "physical_activity",
           "description": "Physical activity",
-          "variable_type": "numerical",
+          "variable_type": "numeric",
           "coding": "Number of minutes engaged in mild, moderate and strenuous exercise weighted by metabolic equivalents and then summed to produce a total daily leisure activity score",
           "answer_categories": "",
           "details": "Number of minutes engaged in mild, moderate and strenuous exercise weighted by metabolic equivalents and then summed to produce a total daily leisure activity score",
@@ -7083,6 +7160,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-10",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -7110,7 +7193,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "1x/day in the evening",
       "participants": "patients diagnosed with mood disorders, anxiety disorders, trauma and stressor-related disorders, and obsessive-compulsive and related disorder",
-      "coding_file": "0017_ jang_variables",
       "additional_comments": "some item coding unclear; large amount of additional data available on Zenodo; number of max. time points calculated as the maximum span between first and last date in the data set; raw time stamp only for some variables",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -7758,6 +7840,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-15",
           "description": "Remove redundant date column; removed uncleaned static data pending internal review.",
           "type": "data",
@@ -7785,7 +7873,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "6x/day pseudo-random one-hour intervals",
       "participants": "community sample",
-      "coding_file": "0018_bailon_variables",
       "additional_comments": "no beep information available; number of max. time points taken as maximum of observations in data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -7943,6 +8030,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-09-15",
           "description": "Add metadata for time variable; add missing asssessment types.",
           "type": "metadata",
@@ -7982,7 +8075,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "4x/day fixed and random sampling",
       "participants": "middle and secondary school students",
-      "coding_file": "0019_söderberg_variablen",
       "additional_comments": "inconsistency between notification times and the beep ordering by the authors; contains multiple sampling frequencies; the \"stupid\" item could also be interpreted as \"hostile\" in Swedish",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -8392,6 +8484,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-10-13",
           "description": "Removal of unclear and uncleaned passive sensing data.",
           "type": "data",
@@ -8419,7 +8517,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "3x/day fixed schedule",
       "participants": "employees of research center",
-      "coding_file": "0021_gundogdu_variables",
       "additional_comments": "no beep information available; six-week duration, but only workdays were included",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -8577,6 +8674,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -8610,7 +8713,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "7x/day random schedule",
       "participants": "full-time office workers",
-      "coding_file": "0022_menghini_variables",
       "additional_comments": {},
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -9020,6 +9122,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-17",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -9047,7 +9155,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "3x/day or 5x/day unclear schedule",
       "participants": "undergraduate students",
-      "coding_file": "0023_dora_variables",
       "additional_comments": "data from two studies; item coding based on private codebook; some items assessed daily; number of max. time points taken as maximum of observations in data; raw time stamps at an hour level",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -9289,6 +9396,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -9322,7 +9435,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "9x/day or 3x/day subject-specific schedule",
       "participants": "university students",
-      "coding_file": "0024_hasselhorn_variables",
       "additional_comments": "no beep information available; study 1 of the cited paper; two ESM phases with different number of questionnaires per day; maximum number of observations for both study phases",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -9760,6 +9872,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -9793,7 +9911,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "3x/day fixed schedule",
       "participants": "university students",
-      "coding_file": "0025_hasselhorn_variables",
       "additional_comments": "no beep information available; study 2 of the cited paper; some variable coding unclear; original english codebook contains mixup of mood variables; also shared under https://osf.io/xt3rf/?view_only=6e6bf509c6374759b56faac680c55825",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -10343,6 +10460,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -10364,7 +10487,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "5x/day semi-random signal contingent",
       "participants": "young adults (18-25)",
-      "coding_file": "0026_fernández_variables",
       "additional_comments": "no beep and day information available; sample 1 of the cited paper; only a subset of days was shared",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -10564,6 +10686,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -10585,7 +10713,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "5x/day fixed-schedule with personalization",
       "participants": "non-clinical individuals",
-      "coding_file": "0027_pavani_variables",
       "additional_comments": "due to lagged variables in the dataset; it's not fully clear to which counter each value corresponds",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -10785,6 +10912,18 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2026-10-14",
+          "description": "Change coding of empty additional comments field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -10806,7 +10945,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "10x/day stratified sampling",
       "participants": "participants with above-average paranoid ideation and/or interpersonal sensitivity",
-      "coding_file": "0028_contreras_variables",
       "additional_comments": {},
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -10978,6 +11116,18 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2026-10-14",
+          "description": "Change coding of empty additional comments field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -10999,7 +11149,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "10x/day random schedule",
       "participants": "individuals with IBS and panic disorder",
-      "coding_file": "0029_drukker_variables",
       "additional_comments": {},
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -11171,6 +11320,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-09-09",
           "description": "Fix information about number of participants.",
           "type": "metadata",
@@ -11198,7 +11353,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "10x/day stratified random interval",
       "participants": "undergraduate students",
-      "coding_file": "0031_koval_variables",
       "additional_comments": "subset of larger dataset available upon request in the EMOTE database (https://emotedatabase.com/datasets/23)",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -11328,6 +11482,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -11355,7 +11515,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "9x/day semi-fixed intervals",
       "participants": "adults",
-      "coding_file": "0032_grommisch_variables",
       "additional_comments": "no beep information available; variable distraction is missing; data from FEEL project; sliders initialized at 50; subset of larger dataset available upon request in the EMOTE database (https://emotedatabase.com/datasets/21)",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -11625,6 +11784,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -11646,7 +11811,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "4x/day fixed schedule",
       "participants": "participants with a diagnosis of MDD and/or GAD",
-      "coding_file": "0033_fisher_variables",
       "additional_comments": "item order was randomized; partially implicit missingness; no beep information; number of max. time points and max. days taken as maximum of observations in data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -12098,6 +12262,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-09-15",
           "description": "Add metadata for two creation variables.",
           "type": "metadata",
@@ -12125,7 +12295,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "4x/day fixed schedule",
       "participants": "participants with PTSD",
-      "coding_file": "0034_reeves_variables",
       "additional_comments": "no beep information available; number of max. observations and days taken from maximum observations in data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -12731,6 +12900,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -12752,7 +12927,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "8x/day semi-random schedule",
       "participants": "adult alcohol consumers",
-      "coding_file": "0035_soyster_variables",
       "additional_comments": "no beep information available but there may be information in the original code that can be used to create it; number of max. time points taken as maximum of observations in data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -13120,6 +13294,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-04-27",
           "description": "Fix 'extraversion' typo in variable coding.",
           "type": "metadata",
@@ -13147,7 +13327,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "4x/day 30-minute interval",
       "participants": "undergraduate students with elevated GAD symptoms",
-      "coding_file": "0036_bosley_variables",
       "additional_comments": "item order was randomized; wording of items not fully clear but inferred from article+data; no beep information available; number of max. time points and days taken as maximum of observations in data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -13599,6 +13778,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-09-09",
           "description": "Fix information about number of participants.",
           "type": "metadata",
@@ -13626,7 +13811,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "4x/day random schedule",
       "participants": "regular smokers",
-      "coding_file": "0037_fisher_variables",
       "additional_comments": "some variables with unclear coding; some variables morning-only; number of max. time points and days taken as maximum of observations in data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -14176,6 +14360,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-17",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -14209,7 +14399,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "1x/day in the evening",
       "participants": "adults",
-      "coding_file": "0039_kuczynski_variables",
       "additional_comments": "variable coding partially unclear; 1.0.1: changed publication year to 2021",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -14395,6 +14584,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -14428,7 +14623,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "irregular",
       "participants": "undergraduate students",
-      "coding_file": "0040_nepal_variables",
       "additional_comments": "combined the two EMA datasets in their repository; more sensor data available online; number of max. time points and days taken as maximum of observations in aggregated data; number of participants differs from description in the paper",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -14810,6 +15004,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -14831,7 +15031,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "1x/day in the evening",
       "participants": "individuals with personality disorder diagnosis",
-      "coding_file": "0041_wright_variables",
       "additional_comments": "no information on day of data collection available - unclear if there are intermediate missings",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -14975,6 +15174,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-17",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -15002,7 +15207,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "random momentary prompts and scheduled daily diary",
       "participants": "community participants (excluding undergraduates)",
-      "coding_file": "0042_mostajabi_variables",
       "additional_comments": "S1 in the paper; no beep information available; some timestamp coding unclear; https://osf.io/7a5de provides a good overview of previous usage of data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -15454,6 +15658,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-17",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -15481,7 +15691,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "random momentary prompts and scheduled daily diary",
       "participants": "college students",
-      "coding_file": "0043_mostajabi_variables",
       "additional_comments": "S2 in the paper; no beep information available; some timestamp coding unclear; affect items could relate to feeling at the moment or during the past interaction; https://osf.io/7a5de provides a good overview of previous usage of data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -15947,6 +16156,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-17",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -15974,7 +16189,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "unclear",
       "participants": "college students",
-      "coding_file": "0044_mostajabi_variables",
       "additional_comments": "S3 in the paper; https://osf.io/7a5de provides a good overview of previous usage of data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -16286,6 +16500,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -16307,7 +16527,6 @@
       "raw_time_stamp": "unclear",
       "sampling_scheme": "5x/day fixed 30-minute interval",
       "participants": "participants with and without mood disorders",
-      "coding_file": "0045_kullar_variables",
       "additional_comments": "exact question wording unclear",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -16521,6 +16740,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-09-15",
           "description": "Add metadata for two affect variables.",
           "type": "metadata",
@@ -16548,7 +16773,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "event-contingent based on social interactions",
       "participants": "adults (18-50)",
-      "coding_file": "0046_ringwald_variables",
       "additional_comments": "ILIADD study; randomly initiated ESM surveys not available in this dataset; number of max. time points taken as maximum of observations in data; day and beep information missing",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -16734,6 +16958,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -16755,7 +16985,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "4x semi-random, 1 prompt user-initiated before sleep",
       "participants": "adults experiencing COVID lockdown",
-      "coding_file": "0049_pronizius_variables",
       "additional_comments": "burst 1 in the paper; more description on EMA variables: https://osf.io/kaf9e and https://osf.io/4tpvd; contains a subset of data from a larger project on Covid (see for example here: https://osf.io/fdnm7/)",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -16969,6 +17198,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -16990,7 +17225,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "4x semi-random, 1 prompt user-initiated before sleep",
       "participants": "adults experiencing COVID lockdown",
-      "coding_file": "0050_pronizius_variables",
       "additional_comments": "burst 2 in the paper; more description on EMA variables: https://osf.io/kaf9e and https://osf.io/4tpvd; contains a subset of data from a larger project on Covid (see for example here: https://osf.io/fdnm7/)",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -17204,6 +17438,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -17249,7 +17489,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "8x semi-random with at least 45 minutes between surveys",
       "participants": "Dutch undergraduate students using social media",
-      "coding_file": "0051_johannes_variables",
       "additional_comments": "some participants pre-excluded due to compliance by authors",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -17827,6 +18066,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-10",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -17860,7 +18105,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "4x/day 4 hour intervals based on individual wake-up time",
       "participants": "undergraduate students",
-      "coding_file": "0052_marian_variables",
       "additional_comments": "some participants pre-excluded due to compliance by authors; some collected symptoms strongly overlap and were combined in the original article; exact translation of some GAD/PHQ questions to EMA wording unclear - for example; about frequency of sleep issues",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -18410,6 +18654,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-17",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -18443,7 +18693,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "6x/day semi-random intervals with anchor times and 40 minute period around them",
       "participants": "undergraduate students",
-      "coding_file": "0053_stevens_variables",
       "additional_comments": "no day and beep information available; some variable coding unclear",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -18811,6 +19060,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -18838,7 +19093,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "7x/day semi-random intervals, scheduled in blocks",
       "participants": "undergraduate students",
-      "coding_file": "0054_tammilehto_variables",
       "additional_comments": "no day and beep information available",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -19052,6 +19306,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-17",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -19085,7 +19345,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "6x/day EMA, 1x/day daily diary, morning survey at self-chosen time, other surveys randomly with certain interval, daily diary at 6:30pm",
       "participants": "young adults (18-25)",
-      "coding_file": "0055_wang_variables",
       "additional_comments": "Networks of Daily Experiences (NODE) study; combined the daily diary and ESM data into one dataset; some information on the family conflict and cohesion items taken from here: https://doi.org/10.1111/famp.12515, although their wording in this study was not fully clear",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -19369,6 +19628,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-18",
           "description": "Initial release.",
           "type": "data",
@@ -19390,7 +19655,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "6x/day at random times within the bounds of every participant's individually preferred time window, with at least 40 min. time lags between surveys",
       "participants": "mostly college students",
-      "coding_file": "0056_ryvkina_variables",
       "additional_comments": "sample 1 in the paper; EMOTIONS project; subset of data used in a publication is available at https://osf.io/nxyh3/files/osfstorage; some COVID-related variables were only assessed for part of the sample; original dataset contains additional careless responding indices that could be recomputed from the data; no beep information available; the original authors would be thankful if researchers planning to re-use their data could fill in this form: https://forms.gle/MDj6WceMcioq5eUt9",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -20514,6 +20778,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-15",
           "description": "Initial release.",
           "type": "data",
@@ -20535,7 +20805,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "6x/day at random times within the bounds of every participant's individually preferred time window, with at least 40 min. time lags between surveys",
       "participants": "general population",
-      "coding_file": "0057_ryvkina_variables",
       "additional_comments": "sample 2 in the paper; EMOTIONS project; subset of data used in a publication is available at https://osf.io/nxyh3/files/osfstorage; no beep information available; original dataset contains additional careless responding indices that could be recomputed from the data;  the original authors would be thankful if researchers planning to re-use their data could fill in this form: https://forms.gle/MDj6WceMcioq5eUt9",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -21827,6 +22096,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-17",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -21860,7 +22135,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "6x/day pseudo-random intervals with minimum interval between prompts",
       "participants": "adults, oversampled for people in treatment or seeking treatment",
-      "coding_file": "0058_gainey_variables",
       "additional_comments": "11 participants participated in baseline but not ESM",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -22368,6 +22642,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -22389,7 +22669,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "6x/day within self-selected 12hr timeframe",
       "participants": "students",
-      "coding_file": "0059_blanke_variables",
       "additional_comments": "study 1 in the paper",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -22715,6 +22994,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-15-09",
           "description": "Set beep column to NA and retained original hour_block column; removed uncleaned static data pending internal review.",
           "type": "data",
@@ -22742,7 +23027,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "4x/day every fixed schedule every for hours, starting time chosen by participants",
       "participants": "students",
-      "coding_file": "0060_beck_variables",
       "additional_comments": "no beep information available; part of larger personality intervention study; one individual (143) had identical duplicate responses, which we removed; number of max. observations and days taken from maximum observations in data",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -24258,6 +24542,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -24285,7 +24575,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "6x/day random schedule",
       "participants": "undergraduate students",
-      "coding_file": "0061_merolla_variables",
       "additional_comments": "data collected as part of an intervention project",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -24513,6 +24802,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-09-09",
           "description": "Fix information about number of participants.",
           "type": "metadata",
@@ -24540,7 +24835,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "6x/day semi-random schedule",
       "participants": "undergraduate students",
-      "coding_file": "0062_neubauer_variables",
       "additional_comments": "part of the STECCO project; number of participants higher than that included in the paper; more panel datasets available on OSF; some variables use \"-1\" for \"not applicable\"",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -26588,6 +26882,12 @@
       "dataset_version": "3.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "3.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -26627,7 +26927,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "10x/day in 90-minute blocks with 30 to 150 minutes in between",
       "participants": "Dutch working adults",
-      "coding_file": "0063_vanwoerkom_variables",
       "additional_comments": "no implicit missingness but timepoints seem to be missing for dropouts",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -27009,6 +27308,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-06-11",
           "description": "Fix number of participants.",
           "type": "metadata",
@@ -27042,7 +27347,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "event-contingent based on social interactions",
       "participants": "outpatients screened for personality\npathology and their romantic\npartners",
-      "coding_file": "0064_wright_variables",
       "additional_comments": "data from original study shared in more detail in Wendt et al. (2020); number of time points based on max. rows in data; variable coding partially unclear",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -27606,6 +27910,12 @@
       "dataset_version": "3.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "3.0.0"
+        },
+        {
           "date": "2026-09-10",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -27639,7 +27949,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "1x/day for a window of four hours",
       "participants": "adults with spina bifida and current symptoms of incontinence",
-      "coding_file": "0066_hensel_variables",
       "additional_comments": "more individuals in the dataset than in the published paper; partially implicit missingness; some variable coding unclear, some likert scales have \"prefer not to answer\" option coded as 99 to distinguish it from missingness as NA",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -29995,6 +30304,12 @@
       "dataset_version": "4.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "4.0.0"
+        },
+        {
           "date": "2026-10-13",
           "description": "Removal of non-self report event data.",
           "type": "data",
@@ -30040,7 +30355,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "random triggers and triggers based on skin conductance",
       "participants": "first-year psychology students in Tilburg",
-      "coding_file": "0070_vanhalem_variables",
       "additional_comments": "more raw sensor data available on OSF; questions originally in Dutch",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -30856,6 +31170,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-25",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -30883,7 +31203,6 @@
       "raw_time_stamp": "no",
       "sampling_scheme": "5x/day with 4 randomly-timed surveys between 9am and 6pm and one daily evening survey after 7pm",
       "participants": "adults",
-      "coding_file": "0071_scharbert_variables",
       "additional_comments": "no beep information available; data from the CoCo project; subset of all data available here; more information about all data and a data request sheet is provided at https://osf.io/bzahp/ and https://coco-study.org/en/; additional data about tweet counts related to the Ukraine war are available on OSF",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -31083,6 +31402,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-15",
           "description": "Initial release.",
           "type": "data",
@@ -31104,7 +31429,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "1x/day at 7pm completed until 5am",
       "participants": "adults living in a household with a schoolchild",
-      "coding_file": "0072_neubauer_variables",
       "additional_comments": "data from the PACO project; for some Likert questions, -1 indicates that the question could not be answered",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -32816,6 +33140,12 @@
       "dataset_version": "2.0.0",
       "changelog": [
         {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "2.0.0"
+        },
+        {
           "date": "2026-09-17",
           "description": "Removal of uncleaned static data pending privacy review.",
           "type": "data",
@@ -32849,7 +33179,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "6x/day semi-randomized prompts within 30-minute intervals with 75 minutes between intervals and a 45-minute expiration time for each prompt",
       "participants": "adults between 18-65",
-      "coding_file": "0073_sicorello_variables",
       "additional_comments": "did not convert timestamps to time columns as there is additional timezone information available; items originally in German",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -33495,7 +33824,14 @@
       "paper_doi": "https://doi.org/10.31234/osf.io/nz96c_v1",
       "zenodo_doi": "10.5281/zenodo.21495793",
       "dataset_version": "1.0.0",
-      "changelog": {},
+      "changelog": [
+        {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://github.com/digital-wellbeing/open-play/tree/main/data",
       "license": "CC0 1.0 - modified",
       "link_to_codebook": "https://github.com/digital-wellbeing/open-play/blob/main/codebook.xlsx",
@@ -33511,7 +33847,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "1x/day at 2 pm local time",
       "participants": "18-40 year old people who play video games",
-      "coding_file": "0075_ballou_variables",
       "additional_comments": "Part of the \"open play\" project; more video game and time use data and additional surveys available on Zenodo and GitHub (https://github.com/digital-wellbeing/open-play). Find the modified license on GitHub and Zenodo.",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
@@ -34241,7 +34576,14 @@
       "paper_doi": "https://doi.org/10.1177/20501579221149823",
       "zenodo_doi": "10.5281/zenodo.22911022",
       "dataset_version": "1.0.0",
-      "changelog": [],
+      "changelog": [
+        {
+          "date": "2026-10-14",
+          "description": "Removed the internal coding_file field.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/d56cx/overview",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/d56cx/files/b3a5m",
@@ -34257,7 +34599,6 @@
       "raw_time_stamp": "yes",
       "sampling_scheme": "6x/day randomly in equal intervals, with some surveys triggered by passive sensing mobility",
       "participants": "adults residing in the data collection city with an Android phone",
-      "coding_file": "0076_bayer_variables",
       "additional_comments": "data were sent to openESM team via email, data link only contains description of original data; more information available on the mCog project's OSF page (https://osf.io/d56cx/); passive sensing and cross-sectional data available in the overall mCog project; participants were randomly assigned to groups",
       "coder_data": "Björn Siepe",
       "coder_metadata": "Björn Siepe",
